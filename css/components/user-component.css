@@ -21,6 +21,7 @@
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0,0,0,0.5);
+    margin-left: 15px;
 }
 .user-component__avatar-xl{
     width: 80px;
@@ -36,4 +37,12 @@
 }
 .user-component__column-number{
     color: rgba(0,0,0,0.5);
+}
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;
+}
+.user-component__badge{
+    display: block;
+    margin-left: 8px;
 }
