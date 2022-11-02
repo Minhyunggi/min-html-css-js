@@ -27,4 +27,53 @@
   background-color: #92a4b2;
   padding: 16px;
   border-radius: 25px;
+  margin-bottom: 25px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.message__author {
+  opacity: 0.8;
+  font-size: 15px;
+  margin-bottom: 8px;
+  display: block;
+}
+.message__bubble {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 5px;
+  border-top-left-radius: 0%;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__time {
+  font-size: 14px;
+}
+.message-row--own {
+  display: flex;
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  background-color: #f7e20a;
+  border-radius: 15px;
+  border-top-right-radius: 0%;
+  order: 1;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+.message-row--own .message__time {
+  order: 0;
 }
