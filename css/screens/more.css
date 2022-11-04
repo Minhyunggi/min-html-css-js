@@ -1,0 +1,55 @@
+.more-header {
+  padding: 30px 0px;
+  background-color: #f7e20a;
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-bottom: 20px;
+}
+.wallet-header__column {
+  margin: 0px 20px;
+  font-size: 30px;
+}
+.wallet-header__column:first-child span {
+  font-weight: 800;
+}
+.wallet-header__column:last-child {
+  opacity: 0.7;
+  font-size: 25px;
+}
+.emoticon-box {
+  background-color: white;
+  padding: 15px 0px;
+  margin: 0px 30px;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.emoticon-box__column {
+  margin: 0px 15px;
+}
+.emoticon-box__column-smile {
+  color: #f7e20a;
+}
+.fa-solid fa-plus fa-lg {
+  background-color: tomato;
+  border-radius: 50%;
+}
+.emoticon-box__column span {
+  font-weight: 600;
+}
+.pay-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.pay-box__column span {
+  font-size: 22px;
+  font-weight: 700;
+}

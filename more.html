@@ -7,7 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More - Kokoa Talk</title>
   </head>
+
   <body>
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span
+          ><i class="fa-solid fa-gear fa-lg"></i>
+          <div class="screen-header__gear__dot"></div>
+        </span>
+      </div>
+    </header>
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,32 +34,38 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
-      <div class="screen-header__icons">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span
-          ><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a>
-          <div class="screen-header__gear__dot"></div>
-        </span>
-      </div>
-    </header>
 
-    <main class="main-screen"></main>
-    <div class="user-component">
-      <div class="user-component__column">
-        <img
-          class="user-component__avatar user-component__avatar-xl2"
-          src="/ScreenShot/KakaoTalk_20221023_165305424.jpg"
-        />
-        <div class="user-component__text">
-          <h4 class="user-component__title">Minhyunggi</h4>
-          <h6 class="user-component__subtitle">+010-1234-5678</h6>
+    <div class="more-header">
+      <div class="wallet-header">
+        <div class="wallet-header__column">
+          <span>지갑</span>
+          <i class="fa-solid fa-chevron-right fa-lg"></i>
+        </div>
+        <div class="wallet-header__column">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>인증서</span>
         </div>
       </div>
-      <div class="user-component__column">
-        <i class="far fa-comment-alt fa-2x"></i>
+      <div class="emoticon-box">
+        <div class="emoticon-box__column">
+          <i
+            class="fa-regular fa-face-smile fa-lg emoticon-box__column-smile"
+          ></i>
+          <i class="fa-solid fa-plus fa-lg"></i>
+          <span>이모티콘 플러스 다시 이용하기</span>
+        </div>
+        <div class="emoticon-box__column">
+          <i class="fa-solid fa-chevron-right fa-lg"></i>
+        </div>
+      </div>
+      <div class="pay-box">
+        <div class="pay-box__column">
+          <i class="fa-solid fa-comment fa-lg"></i>
+          <span>pay</span>
+        </div>
+        <div class="pay-box__column">
+          <span>5,100원</span>
+        </div>
       </div>
     </div>
 
@@ -72,8 +90,8 @@
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <div class="nav__ellipsis"></div>
-            <i class="fa-solid fa-ellipsis fa-2x"></i
-          ></a>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>
