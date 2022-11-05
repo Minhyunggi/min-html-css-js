@@ -72,3 +72,20 @@
 .send-box__column span {
   margin: 0px 10px;
 }
+.four-of-one-box{
+  display: flex;
+  margin: 100px;
+  text-align: center;
+  justify-content: space-between;
+}
+.four-of-one-box__column span{
+  margin-top: 15px;
+  font-size: 20px;
+}
+.four-of-one-box__column i{
+  font-size: 50px;
+}
+.four-of-one-box__column{
+  display: flex;
+  flex-direction: column;
+}
